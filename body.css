@@ -1,0 +1,67 @@
+body{
+    background-color: lightskyblue;
+    text-align: center;
+}
+.box{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: plum;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline dashed;
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+#newtask::placeholder{
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 15px;
+}
+button{
+    background-color: black;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgba(245, 245, 245, 0.904);
+    text-align: center;
+    text-decoration: underline double;
+    padding-bottom: 3%;
+    padding-top: 2%;    
+    text-align: left;
+}
+ul{
+    list-style: none;
+    padding-right:3%;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 2%;
+}
+li.completed{
+    text-decoration: line-through;
+    color: white;
+}
+li button {
+    margin-left: 10px;
+}
